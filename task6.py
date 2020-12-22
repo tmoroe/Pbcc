@@ -1,6 +1,6 @@
 def max_num(*numbers):
-    r = 0;
+    result = 0
     for num in numbers:
-        if num > r:
-            r = num
-    return r
+        if num > result:
+            result = num
+    return result
